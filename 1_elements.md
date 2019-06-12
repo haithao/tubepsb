@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Tu van tu bep
 description: Goc chuyen gia tu van
 nav-menu: true
