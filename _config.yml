@@ -6,7 +6,7 @@ description: A responsive site template designed by HTML5 Up<br /> and released 
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: </p><p>Văn phòng B19 Tầng 16 tòa nhà TNR, số 54 Nguyễn Chí Thanh, Q.Đống Đa, Hà Nội.</p><p>Xưởng sản xuất: Cụm 8, xã Long Xuyên, huyện Phúc Thọ, TP Hà Nội.</p><p>Xưởng sản xuất: 32 Đường Tiến Thành, La Dương, Q Nam Từ Liêm, TP Hà Nội.</p>
+street_address: </p><p>Văn phòng B19 Tầng 16 tòa nhà TNR, số 54 Nguyễn Chí Thanh, Q.Đống Đa, Hà Nội.</p><p>Xưởng sản xuất 1 Cụm 8, xã Long Xuyên, huyện Phúc Thọ, TP Hà Nội.</p>
 city: Hanoi
 state: 
 zip_code: 10000
