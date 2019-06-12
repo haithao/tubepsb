@@ -34,3 +34,9 @@ markdown: kramdown
 
 sass:
   style: compressed
+  
+defaults:
+  - scope:
+      path: "assets/images/dathicong"
+    values:
+      image: true
