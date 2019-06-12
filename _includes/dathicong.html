@@ -17,7 +17,7 @@
 			{% assign image_files = site.static_files | where: "image", true %}
 			{% for image in image_files %}
 			  
-			 <div class="col-lg-6 col-sm-12">
+			 <div class="col-sm-6">
 
 				<img src="{{site.baseurl}}{{ image.path }}" class="img-responsive" alt="">
 
