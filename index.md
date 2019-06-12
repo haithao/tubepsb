@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Xin chao cac ban den voi tu bep SB'
 description: null
 image: null
 author: null
