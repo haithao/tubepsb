@@ -8,7 +8,7 @@
 			{% assign image_files = site.static_files | where: "image", true %}
 			{% for image in image_files %}		  
 			 <div class="col-lg-6 col-sm-12">
-				<img src="{{site.baseurl}}{{ image.path }}" style="float:left;width:50%;height:100%;">
+				<img src="{{site.baseurl}}{{ image.path }}" style="width:50%;height:100%;">
 			</div> 
 			{% endfor %}
         </div>
