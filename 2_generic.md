@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: Mau tu bep
+description: Bo suu tap mau tu bep hien dai
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
