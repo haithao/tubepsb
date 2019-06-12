@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Xin chao cac ban den voi tu bep SB'
+landing-title: 'Trang web gioi thieu tu bep SB'
 description: null
 image: null
 author: null
