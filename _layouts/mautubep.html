@@ -27,11 +27,12 @@
 	</div>
 </section>
 
-<!-- Two aa-->
+<!-- Two cc-->
 <section class="no-padding" id="two">
-    <div class="container-fluid">
+    
 		{% for kit in site.posts %}
 		{% kit.category == mautubep %}
+		<div class="container-fluid">
         <div class="row row-no-gutters">
            <div class="col-sm-6">
                 <a href="#" class="portfolio-box">
@@ -49,9 +50,10 @@
                 </a>
             </div> 
         </div>
+		</div>
 		{% endif %}
 		{% endfor %}
-    </div>
+    
 </section>
 
 
