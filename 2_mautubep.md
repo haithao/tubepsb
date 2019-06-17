@@ -14,7 +14,7 @@ nav-menu: true
 			<p> fgdhgbbdfvnbdfnv </p>
             <div class="col-sm-6">
                 <a href="#">
-                    <img src="{{site.baseurl}}/assets/images/tubep/{{ style.image }}" class="img-responsive" alt="">
+                    <img src="{{site.baseurl}}/assets/images/tubep/{{ style.img }}" class="img-responsive" alt="">
                     <!-- <div class="portfolio-box-caption"> -->
                         <!-- <div class="portfolio-box-caption-content"> -->
                             <!-- <div class="project-category text-faded"> -->
