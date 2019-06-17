@@ -29,11 +29,10 @@
 
 <!-- Two cc-->
 <section class="no-padding" id="two">
-    
+	<div class="container-fluid">
+	<div class="row row-no-gutters">
 		{% for kit in site.posts %}
-		{% kit.category == mautubep %}
-		<div class="container-fluid">
-        <div class="row row-no-gutters">
+		{% kit.category == mautubep %}		
            <div class="col-sm-6">
                 <a href="#" class="portfolio-box">
                     <img src="{{site.baseurl}}/assets/images/tubep/{{ kit.image }}" class="img-responsive" alt="">
@@ -48,12 +47,11 @@
                         </div>
                     </div>
                 </a>
-            </div> 
-        </div>
-		</div>
+            </div>
 		{% endif %}
-		{% endfor %}
-    
+		{% endfor %}			
+	</div>
+	</div>
 </section>
 
 
