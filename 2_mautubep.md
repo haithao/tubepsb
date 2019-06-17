@@ -9,7 +9,7 @@ nav-menu: true
 <section class="no-padding" id="two">
     <div class="container-fluid">
         <div class="row no-gutter">
-		
+		<p> fgdhgbbdfvnbdfnv </p>
 		{% for style in site.portfolios %}
 			<p> fgdhgbbdfvnbdfnv </p>
             <div class="col-sm-6">
