@@ -13,7 +13,7 @@ nav-menu: true
 		{% for style in site.portfolios %}
             <div class="col-sm-6">
                 <a href="#" class="portfolio-box">
-                    <img src="{{site.baseurl}}{{ style.image }}" class="img-responsive" alt="">
+                    <img src="{{site.baseurl}}/assets/images/tubep/{{ style.image }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
