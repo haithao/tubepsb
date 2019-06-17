@@ -31,7 +31,7 @@
 <section class="no-padding" id="twobb">
     <div class="container-fluid">
 		{% for kit in site.posts %}
-
+		{% kit.category == mautubep %}
         <div class="row row-no-gutters">
            <div class="col-sm-6">
                 <a href="#" class="portfolio-box">
@@ -49,7 +49,7 @@
                 </a>
             </div> 
         </div>
-
+		{% endif %}
 		{% endfor %}
     </div>
 </section>
