@@ -9,18 +9,18 @@ nav-menu: true
 <section class="no-padding" id="two">
     <div class="container-fluid">
         <div class="row no-gutter">
-		{% for style in site.portfolios %}
+		{% for kit in site.products %}
 			<p> fgdhgbbdfvnbdfnv </p>
             <div class="col-sm-6">
                 <a href="#" class="portfolio-box">
-                    <img src="{{site.baseurl}}/assets/images/tubep/{{ style.image }}" class="img-responsive" alt="">
+                    <img src="{{site.baseurl}}/assets/images/tubep/{{ kit.image }}" class="img-responsive" alt="">
                     <!-- <div class="portfolio-box-caption"> -->
                         <!-- <div class="portfolio-box-caption-content"> -->
                             <!-- <div class="project-category text-faded"> -->
-                                <!-- {{ style.category }} -->
+                                <!-- {{ kit.category }} -->
                             <!-- </div> -->
                             <!-- <div class="project-name"> -->
-                                <!-- {{ style.project }} -->
+                                <!-- {{ kit.project }} -->
                             <!-- </div> -->
                         <!-- </div> -->
                     <!-- </div> -->
