@@ -94,7 +94,12 @@
     -moz-transition: all 0.35s;
     transition: all 0.35s;
 }
-
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
 .img-responsive {
   display: block;
   max-width: 100%;  
