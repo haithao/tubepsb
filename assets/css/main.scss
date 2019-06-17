@@ -96,16 +96,20 @@
     transition: all 0.35s;
 }
 
-/* .portfolio-box { */
-    /* position: relative; */
-    /* display: block; */
+.portfolio-box {
+    position: relative;
+    display: block;
     /* max-width: 650px; */
-    /* margin: 0 auto; */
-/* } */
+    margin: 0 auto;
+}
 
 .img-responsive {
   display: block;
   max-width: 100%;  
   height: auto;
+}
+.no-gutter>[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
 }
 	
