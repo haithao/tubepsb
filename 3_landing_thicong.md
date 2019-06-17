@@ -15,9 +15,11 @@ nav-menu: true
 		{% assign image_files = site.static_files | where: "image", true %}
 		{% for image in image_files %}	
         
-		<div class="col-sm-6">
-			<img src="{{site.baseurl}}{{ image.path }}" class="img-responsive" alt="">
-		</div>
+		<div class="col-lg-4 col-sm-6">
+			<a href="#" class="portfolio-box">
+				<img src="{{site.baseurl}}{{ image.path }}" class="img-responsive" alt="">
+			</a>
+		</div> 
         
 		{% endfor %}
 	</div>
