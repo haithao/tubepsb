@@ -81,20 +81,6 @@
 
 /* Them vao */
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 1px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-body {
-color: #FFFFFF;
-/* background-color: #fff; */
+.class {
+    background-color: transparent;
 }
