@@ -29,11 +29,10 @@
 
 <!-- Two cc-->
 <section class="no-padding" id="two">
-	<div class="container-fluid">
-	<div class="row row-no-gutters">
+	<div class="row"> 
 		{% for kit in site.posts %}
 		{% if kit.category == 'mautubep' %}		
-           <div class="col-lg-4 col-sm-6">
+           <div class="column">
                 <a href="#" class="portfolio-box">
                     <img src="{{site.baseurl}}/assets/images/tubep/{{ kit.image }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
@@ -49,10 +48,35 @@
                 </a>
             </div>
 		{% endif %}
-		{% endfor %}			
-	</div>
+		{% endfor %}
 	</div>
 </section>
+
+<!-- <section class="no-padding" id="two"> -->
+	<!-- <div class="container-fluid"> -->
+	<!-- <div class="row row-no-gutters"> -->
+		<!-- {% for kit in site.posts %} -->
+		<!-- {% if kit.category == 'mautubep' %}		 -->
+           <!-- <div class="col-lg-4 col-sm-6"> -->
+                <!-- <a href="#" class="portfolio-box"> -->
+                    <!-- <img src="{{site.baseurl}}/assets/images/tubep/{{ kit.image }}" class="img-responsive" alt=""> -->
+                    <!-- <div class="portfolio-box-caption"> -->
+                        <!-- <div class="portfolio-box-caption-content"> -->
+                            <!-- <div class="project-category text-faded"> -->
+                                <!-- {{ kit.category }} -->
+                            <!-- </div> -->
+                            <!-- <div class="project-name"> -->
+                                <!-- {{ kit.project }} -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                <!-- </a> -->
+            <!-- </div> -->
+		<!-- {% endif %} -->
+		<!-- {% endfor %}			 -->
+	<!-- </div> -->
+	<!-- </div> -->
+<!-- </section> -->
 
 
 </div>

@@ -81,35 +81,26 @@
 
 /* Them vao */
 
-.portfolio-box .portfolio-box-caption {
-    color: white;
-    opacity: 0;
-    display: block;
-    background: rgba(240,95,64,0.9);
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
-}
-
-.portfolio-box {
-    position: relative;
-    display: block;
-    /* max-width: 650px; */
-    margin: 0 auto;
-}
-
 .img-responsive {
   display: block;
   max-width: 100%;  
   height: auto;
 }
-.no-gutter>[class*='col-'] {
-    padding-right: 0;
-    padding-left: 0;
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 	
