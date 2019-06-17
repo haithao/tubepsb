@@ -5,7 +5,6 @@ description: Bo suu tap mau tu bep hien dai
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
-
 <section class="no-padding" id="two">
     <div class="container-fluid">
         <div class="row no-gutter">
