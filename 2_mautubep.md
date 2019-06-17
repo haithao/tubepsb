@@ -11,6 +11,7 @@ nav-menu: true
         <div class="row no-gutter">
 		
 		{% for style in site.portfolios %}
+			<p> fgdhgbbdfvnbdfnv </p>
             <div class="col-sm-6">
                 <a href="#">
                     <img src="{{site.baseurl}}/assets/images/tubep/{{ style.image }}" class="img-responsive" alt="">
