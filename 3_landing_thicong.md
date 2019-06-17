@@ -9,7 +9,18 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-{% include dathicong.html %}
+<section class="no-padding" id="one">	
+    <div class="container-fluid">
+		{% assign image_files = site.static_files | where: "image", true %}
+		{% for image in image_files %}	
+        <div class="row row-no-gutters">
+		<div class="col-sm-6">
+			<img src="{{site.baseurl}}{{ image.path }}" class="img-responsive" alt="">
+		</div>
+        </div>
+		{% endfor %}
+    </div>
+</section>
 
 <!-- Three -->
 <section id="three">
@@ -19,7 +30,7 @@ nav-menu: true
 		</header>
 		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
+			<li><a href="2_mautubep.html" class="button next">Get Started</a></li>
 		</ul>
 	</div>
 </section>

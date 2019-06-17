@@ -1,0 +1,13 @@
+---
+layout: default
+img: 03_Nha_so_8_ngo_63_Le_Duc_Tho.png
+project: 03_Nha_so_8_ngo_63_Le_Duc_Tho
+category: Services
+title: Mẫu tủ bếp hiện đại
+price: Liên hệ
+stock: đặt hàng
+sizes: Kích thước theo đặt hàng
+link: tubep-03.html
+description: |
+---
+Thông tin về tủ bếp!!!!!!

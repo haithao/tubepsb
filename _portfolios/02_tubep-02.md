@@ -1,0 +1,13 @@
+---
+layout: default
+img: 02_CC_DTM_Linh_Dam_No7A_408.png
+project: 02_CC_DTM_Linh_Dam_No7A_408
+category: Services
+title: Mẫu tủ bếp hiện đại
+price: Liên hệ
+stock: đặt hàng
+sizes: Kích thước theo đặt hàng
+link: tubep-02.html
+description: |
+---
+Thông tin về tủ bếp!!!!!!

@@ -1,0 +1,13 @@
+---
+layout: default
+img: 01_CT1a_1402_CC_Nghia_Do.png
+project: 01_CT1a_1402_CC_Nghia_Do
+category: Services
+title: Mẫu tủ bếp hiện đại
+price: Liên hệ
+stock: đặt hàng
+sizes: Kích thước theo đặt hàng
+link: tubep-01.html
+description: |
+---
+Thông tin về tủ bếp!!!!!!
