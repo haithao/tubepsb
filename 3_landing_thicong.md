@@ -11,14 +11,16 @@ nav-menu: true
 
 <section class="no-padding" id="one">	
     <div class="container-fluid">
+	<div class="row row-no-gutters">
 		{% assign image_files = site.static_files | where: "image", true %}
 		{% for image in image_files %}	
-        <div class="row row-no-gutters">
+        
 		<div class="col-sm-6">
 			<img src="{{site.baseurl}}{{ image.path }}" class="img-responsive" alt="">
 		</div>
-        </div>
+        
 		{% endfor %}
+	</div>
     </div>
 </section>
 
