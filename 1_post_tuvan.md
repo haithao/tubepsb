@@ -10,10 +10,15 @@ nav-menu: true
 
 <!-- One -->
 <section id="one">
-{% include tuvan_bep.html %}
+{% include tuvan_thietketubep.html %}
 </section>
 
 <!-- Two -->
+<section id="one">
+{% include tuvan_gocongnghiep.html %}
+</section>
+
+<!-- Three -->
 <section id="one">
 {% include tuvan_vatlieu.html %}
 </section>
