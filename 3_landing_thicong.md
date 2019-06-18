@@ -9,13 +9,14 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
+<!-- One -->
 <section class="no-padding" id="one">	
     <div class="container-fluid">
 	<div class="row row-no-gutters">
 		{% assign image_files = site.static_files | where: "image", true %}
 		{% for image in image_files %}	
         
-		<div class="col-lg-4 col-sm-6">
+		<div class="col-lg-6 col-sm-6">
 			<a href="#" class="portfolio-box">
 				<img src="{{site.baseurl}}{{ image.path }}" class="img-responsive" alt="">
 			</a>
@@ -26,8 +27,8 @@ nav-menu: true
     </div>
 </section>
 
-<!-- Three -->
-<section id="three">
+<!-- Two -->
+<section id="two">
 	<div class="inner">
 		<header class="major">
 			<h2>Massa libero</h2>
