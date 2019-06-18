@@ -31,9 +31,9 @@ nav-menu: true
 <section id="two">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>@Donald Trump</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>Không có đam mê, bạn không có năng lượng; không có năng lượng, bạn không có cái gì. Không có gì tuyệt vời trên thế giới được làm xong mà không có đam mê trong đó..</p>
 		<ul class="actions">
 			<li><a href="2_mautubep.html" class="button next">Get Started</a></li>
 		</ul>
