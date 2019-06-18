@@ -12,7 +12,7 @@ nav-menu: true
 <!-- One -->
 <section class="no-padding" id="one">	
     <div class="container-fluid">
-	<div class="row row-no-gutters">
+	<div class="row-no-gutters">
 		{% assign image_files = site.static_files | where: "image", true %}
 		{% for image in image_files %}	
         
