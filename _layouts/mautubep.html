@@ -20,10 +20,10 @@
 <section class="no-padding" id="one">
 <div class="container-fluid">
 	<!-- <div class="inner"> -->
-		<header class="major">
-			<h1>{{ page.title }}</h1>
-		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+	<header class="major">
+		<h1>{{ page.title }}</h1>
+	</header>
+	{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		
 	<!-- </div> -->
 </div>
@@ -33,22 +33,22 @@
 	<div class="container-fluid">
 	<!-- <div class="inner"> -->
 	<div class="row row-no-gutters">
-		{% for kit in site.posts %}
-		{% if kit.category == 'mautubep' %}		
-           <div class="col-lg-4 col-sm-4">
-                <a href="#" class="portfolio-box">
-                    <img src="{{site.baseurl}}/assets/images/tubep/{{ kit.image }}" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-name">
-                                {{ kit.project }}
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-		{% endif %}
-		{% endfor %}			
+	{% for kit in site.posts %}
+	{% if kit.category == 'mautubep' %}		
+	   <div class="col-lg-4 col-sm-4">
+			<a href="#" class="portfolio-box">
+				<img src="{{site.baseurl}}/assets/images/tubep/{{ kit.image }}" class="img-responsive" alt="">
+				<div class="portfolio-box-caption">
+					<div class="portfolio-box-caption-content">
+						<div class="project-name">
+							{{ kit.project }}
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	{% endif %}
+	{% endfor %}			
 	</div>
 	<!-- </div> -->
 	</div>
