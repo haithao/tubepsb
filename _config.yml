@@ -4,7 +4,7 @@ subtitle: by SB Kitchen
 email: dangthanhhai@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: # the subpath of your site, e.g. /blog
-url: https://haithao.github.io/tubepsb # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 author:
 street_address: Văn phòng B19 Tầng 16 tòa nhà TNR, số 54 Nguyễn Chí Thanh, Q.Đống Đa, Hà Nội.<br>Xưởng sản xuất 1 Cụm 8, xã Long Xuyên, huyện Phúc Thọ, TP Hà Nội.
 city: Hanoi
