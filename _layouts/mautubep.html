@@ -36,7 +36,7 @@
 	{% for kit in site.posts %}
 	{% if kit.category == 'mautubep' %}		
 	   <div class="col-lg-4 col-sm-4">
-			<a href="#" class="portfolio-box">
+			<a href="{{site.baseurl}}{{include.post.url}}" class="portfolio-box">
 				<!-- <img src="{{site.baseurl}}/assets/images/tubep_small/{{ kit.image }}" class="img-responsive" alt=""> -->
 				<img src="{{site.baseurl}}/assets/images/tubep_small/{{ kit.image }}" class="image main" alt="">
 				<div class="portfolio-box-caption">
