@@ -22,7 +22,7 @@
 	<header class="major">
 		<h1>{{ page.project }}</h1>
 	</header>
-	{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+	{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/assets/images/pic11.jpg" alt="" /></span>{% endif %}
 </div>
 </section>
 
@@ -31,7 +31,7 @@
 	<div class="row-no-gutters">
 	{% assign imgs = page.imagedetail | split: ',' %}
 	{% for img in imgs %}
-	   <div class="col-lg-6 col-sm-6">
+	   <div class="col-lg-6 col-sm-6"> 
 			<a href="#" class="portfolio-box">
 				<!-- <img src="{{site.baseurl}}/assets/images/tubep_small/{{ kit.image }}" class="img-responsive" alt=""> -->
 				<img src="{{site.baseurl}}/assets/images/tubep/{{ img }}" class="image main" alt="">
