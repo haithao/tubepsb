@@ -40,3 +40,8 @@ defaults:
       path: "assets/images/dathicong"
     values:
       image: true
+
+# plugins
+plugins:
+  - jekyll-seo-tag 
+  
