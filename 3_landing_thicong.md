@@ -1,5 +1,5 @@
 ---
-title: Da thi cong thuc te
+title: CÔNG TRÌNH ĐÃ THI CÔNG
 layout: landing
 description: 'Cac cong trinh da thi cong thuc te'
 image: assets/images/pic07.jpg
