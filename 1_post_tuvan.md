@@ -9,19 +9,20 @@ nav-menu: true
 <!-- Main -->
 <div id="main" class="alt">
 
-<!-- One -->
+<!-- All post -->
 <section id="one">
-{% include tuvan_thietketubep.html %}
-</section>
-
-<!-- Two -->
-<section id="one">
-{% include tuvan_gocongnghiep.html %}
-</section>
-
-<!-- Three -->
-<section id="one">
-{% include tuvan_vatlieu.html %}
+	<div class="inner">
+	{% for post in site.posts %}
+	{% if post.title != 404 | == tuvan %}
+		<header class="major">
+		<h1>{{ post.title }}</h1>
+		</header>
+		{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+		{% if post.date %}<p>{{ post.date }}</p>{% endif %}
+		<p>{{ post.description }}</p>
+	{% endif %}
+	{% endfor %}
+	</div>
 </section>
 
 </div>
