@@ -16,8 +16,9 @@ nav-menu: true
 		<h2>{{ post.title }}</h2>
 	</a>
 	<!-- {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %} -->
-	{% if post.date %}<p>{{ post.date }}</p>{% endif %}
-	<p>{{ post.description }}</p>
+	<p>{% if post.date %} {{ post.date }} {% endif %}
+		<br>{{ post.description }}
+	</p>
 {% endif %}
 {% endif %}
 {% endfor %}
