@@ -2,6 +2,7 @@
 layout: post
 title: Tu van tu bep
 description: Goc chuyen gia tu van
+image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
