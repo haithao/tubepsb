@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Trang web gioi thieu tu bep SB'
+landing-title: 'Trang web gioi thieu TU BEP SB'
 description: null
 image: null
 author: null
