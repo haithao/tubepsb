@@ -13,7 +13,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 	{% for post in site.posts %}
-	{% if post.category == tuvan %}
+	{% if post.category == 'tuvan' %}
 	{% if post.title != 404 %}
 		<header class="major">
 		<h1>{{ post.title }}</h1>
