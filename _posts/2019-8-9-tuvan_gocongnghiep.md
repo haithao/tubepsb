@@ -6,7 +6,7 @@ description: Gỗ công nghiệp - Kiến thức siêu cơ bản của nhà thi�
 image: assets/images/pic06.jpg
 ---
 
-<div class="anh">
+<div class="inner">
 
     <div class="header-news">
 
