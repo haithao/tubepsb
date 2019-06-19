@@ -6,25 +6,19 @@ image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
-<!-- Main -->
-<div id="main" class="alt">
-
 <!-- All post -->
-<section id="one">
-	<div class="inner">
-	{% for post in site.posts %}
-	{% if post.category == 'tuvan' %}
-	{% if post.title != 404 %}
-		<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
-			<h1>{{ post.title }}</h1>
-		</a>
-		<!-- {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %} -->
-		{% if post.date %}<p>{{ post.date }}</p>{% endif %}
-		<p>{{ post.description }}</p>
-	{% endif %}
-	{% endif %}
-	{% endfor %}
-	</div>
-</section>
 
+<div class="inner">
+{% for post in site.posts %}
+{% if post.category == 'tuvan' %}
+{% if post.title != 404 %}
+	<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
+		<h1>{{ post.title }}</h1>
+	</a>
+	<!-- {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %} -->
+	{% if post.date %}<p>{{ post.date }}</p>{% endif %}
+	<p>{{ post.description }}</p>
+{% endif %}
+{% endif %}
+{% endfor %}
 </div>
