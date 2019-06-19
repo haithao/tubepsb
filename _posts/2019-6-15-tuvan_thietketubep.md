@@ -2,7 +2,7 @@
 layout: posttuvan
 category: tuvan
 title: Tu van ve Thiet ke khu bep
-description: Các dạng tủ bếp và phụ kiện tủ bếp đi kèm hiện nay
+description: Các dạng tủ bếp và phụ kiện tủ bếp đi kèm hiện nay.
 image: assets/images/pic06.jpg
 ---
 <div class="inner">
