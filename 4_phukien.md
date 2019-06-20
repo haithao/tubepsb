@@ -1,7 +1,7 @@
-﻿---
-layout: phukientubep
-title: PHU KIEN TỦ BẾP
-description: Phu kien tu bep hien dai
+---
+layout: mautubep
+title: MẪU TỦ BẾP
+description: Bo suu tap mau tu bep hien dai
 image: assets/images/00a-Banner.jpg
 nav-menu: true
 ---
