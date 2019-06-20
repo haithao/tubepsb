@@ -2,7 +2,7 @@
 layout: post
 title: TƯ VẤN TỦ BẾP
 description: Goc chuyen gia tu van
-image: assets/images/pic07.jpg
+image: assets/images/00c-Banner.jpg
 nav-menu: true
 ---
 

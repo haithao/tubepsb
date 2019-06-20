@@ -2,7 +2,7 @@
 title: CÔNG TRÌNH ĐÃ THI CÔNG
 layout: landing
 description: 'Cac cong trinh da thi cong thuc te'
-image: assets/images/pic07.jpg
+image: assets/images/00b-Banner.jpg
 nav-menu: true
 ---
 
