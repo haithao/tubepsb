@@ -1,5 +1,9 @@
 <section id="one" class="tiles"> 
-  {% for page in site.pages limit:site.tiles-count %}
+  <!-- {% for page in site.pages limit:site.tiles-count %} -->
+  <!-- {% for page in site.pages limit:site.tiles-count %} -->
+  <!-- {% for page in site.pages limit:site.tiles-count %} -->
+  {% assign pages = '1_post_tuvan.md,2_mautubep.md,3_landing_thicong.md,4_phukien.md,5_module.md,6_baogia.md' | split: ',' %}
+  {% for page in pages %}
   {% if site.tiles-source == 'pages' and page.show_tile != false %}
   <article>
     <span class="image">
