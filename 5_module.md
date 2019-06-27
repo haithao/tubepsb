@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MODULE TU BEP
-description: Cac module co ban cua tu bep.
+title: MODULE TỦ BẾP
+description: Các module cơ bản của tủ bếp.
 image: assets/images/00a-Banner.jpg
 nav-menu: true
 ---
