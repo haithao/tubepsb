@@ -1,7 +1,7 @@
 ---
 title: CÔNG TRÌNH ĐÃ THI CÔNG
 layout: landing
-description: 'Cac cong trinh da thi cong thuc te'
+description: Các công trình đã thi công thực tế.
 image: assets/images/00b-Banner.jpg
 nav-menu: true
 ---
