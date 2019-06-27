@@ -15,13 +15,13 @@ nav-menu: true
 	<div class="row-no-gutters">
 		{% assign image_files = site.static_files | where: "image", true %}
 		{% for image in image_files %}	
-        
+        {% if image.path contains 'dathicong' %}
 		<div class="col-lg-4 col-sm-4">
 			<a href="#" class="portfolio-box">
 				<img src="{{site.baseurl}}{{ image.path }}" class="img-responsive" alt="">
 			</a>
 		</div> 
-        
+        {% endif %}
 		{% endfor %}
 	</div>
     </div>
