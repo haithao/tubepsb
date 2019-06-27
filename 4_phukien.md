@@ -34,6 +34,7 @@ nav-menu: true
    {% endfor %}
 </div>
 </div>
+</section>
 </div>
 
 <!-- <script src="{{site.baseurl}}/js/photo-grid.js"></script> -->
