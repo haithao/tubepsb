@@ -27,7 +27,7 @@ nav-menu: true
     <!-- </div> -->
 <!-- </section> -->
 
-<section class="no-padding" id="photos">
+<section id="photos">
 <div class="container-fluid">
 <div class="row-no-gutters">
 	{% assign image_files = site.static_files | where: "image", true %}
