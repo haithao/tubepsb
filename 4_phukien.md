@@ -28,6 +28,7 @@ nav-menu: true
 <!-- </section> -->
 
 <section class="no-padding" id="photos">
+<div class="container-fluid">
 <div class="row-no-gutters">
 	{% assign image_files = site.static_files | where: "image", true %}
 	{% for image in image_files %}
@@ -39,6 +40,7 @@ nav-menu: true
 		{% endif %}
 	</div>
    {% endfor %}
+</div>
 </div>
 </div>
 
