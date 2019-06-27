@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: PHU KIEN TU BEP
-description: Tu van phu kien tu bep hien dai
+title: PHỤ KIỆN TỦ BẾP
+description: Tư vấn phụ kiện tủ bếp hiện đại.
 image: assets/images/00a-Banner.jpg
 nav-menu: true
 ---
