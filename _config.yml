@@ -1,8 +1,8 @@
 # site settings
-title: SB Kitchen
-subtitle: by SB Kitchen
+title: SB Tủ bếp
+subtitle: by SB Tủ bếp
 email: dangthanhhai@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: Các loại tủ bếp vật liệu thân thiện môi trường.
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
