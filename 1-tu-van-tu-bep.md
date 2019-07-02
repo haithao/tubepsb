@@ -16,9 +16,8 @@ nav-menu: true
 	<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
 		<h2>{{ post.title }}</h2>
 	</a>
-	<!-- {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %} -->
-	<br>{% if post.date %} {{ post.date }} {% endif %}
-	<br><h3>{{ post.description }}</h3>
+	{% if post.date %} {{ post.date }} {% endif %}
+	<h3>{{ post.description }}</h3>
 	</p>
 {% endif %}
 {% endif %}
