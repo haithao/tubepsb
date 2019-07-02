@@ -6,6 +6,7 @@ description: Gỗ công nghiệp - Kiến thức cơ bản cho người tiêu d�
 image: assets/images/pic06.jpg
 ---
 
+<div class="inner">
 Các loại gỗ công nghiệp phổ biến nhất trong thiết kế nội thất.
 ===========================================================
 Trên thị trường hiện nay rất đa dạng chủng loại gỗ công nghiệp dùng trong thiết kế nội thất nói riêng và tủ bếp nói chung. Khách hàng thường hay nhầm lẫn giữa cách gọi bề mặt chất liệu và cốt vật liệu cấu tạo nên sản phẩm. Trong bài viết này TUBEPSB sẽ trình bày sơ bộ để khách hàng nắm được về loại vật tư mình cần.
@@ -147,3 +148,4 @@ Gỗ công nghiệp được sản xuất trong nước và nhập khẩu. Hàng
 **+ Ứng dụng:** Gia công đồ nội thất, đặc biệt là nội thất văn phòng. Nhược điểm là hạn chế tạo dáng sản phẩm, sử lý cạnh và ghép nối. Cạnh chủ yếu hoàn thiện bằng nẹp nhựa sử dụng máy dán cạnh chuyên dụng.
 
 ![mfc](/assets/images/tu-van-bep/MFC.png) 
+</div>
