@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: landing
 title: MODULE TỦ BẾP
 description: Các module cơ bản của tủ bếp.
 image: assets/images/00a-Banner.jpg
