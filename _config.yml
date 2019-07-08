@@ -12,6 +12,7 @@ state:
 zip_code: 10000
 country: VietNam
 phone: (084)0338500022; (084)-0982835886;
+hotline: (084)0338500022
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
