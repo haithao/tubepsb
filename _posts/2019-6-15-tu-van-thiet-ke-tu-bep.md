@@ -1,7 +1,7 @@
 ---
 layout: post
 category: tuvan
-title: Tu van ve Thiet ke khu bep
+title: Tư vấn thiết kế tủ bếp.
 description: Các dạng tủ bếp và phụ kiện tủ bếp đi kèm hiện nay.
 image: assets/images/pic06.jpg
 ---
