@@ -1,6 +1,6 @@
 ---
 layout: home-mautubep
-title: MẪU TỦ BẾP
+title: Home
 landing-title: 'Trang web giới thiệu TỦ BẾP SB'
 description: giá chỉ từ 2,8tr/m ...
 image: null
