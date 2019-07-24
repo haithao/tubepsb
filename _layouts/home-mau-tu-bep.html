@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+				<p> <h3>{{ page.description }}</h3> </p>
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<section class="no-padding" id="two">
+	<div class="container-fluid">
+	<!-- <div class="inner"> -->
+	<div class="row-no-gutters">
+	{% for post in site.posts %}
+	{% if post.category == 'mautubep' %}		
+	   <div class="col-lg-4 col-sm-4 col-md-4">
+			<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
+				<!-- <img src="{{site.baseurl}}/assets/images/tubep_small/{{ post.image }}" class="img-responsive" alt=""> -->
+				<img src="{{site.baseurl}}/assets/images/tubep_small/{{ post.image }}" class="image main" alt="">
+				<div class="portfolio-box-caption">
+				<div class="portfolio-box-caption-content">
+					<div class="project-category text-faded">
+						Du an
+					</div>
+					<div class="project-name">
+						{{ post.project }}
+					</div>
+				</div>
+				</div>
+			</a>
+		</div>
+	{% endif %}
+	{% endfor %}			
+	</div>
+	<!-- </div> -->
+	</div>
+</section>
+
+{{ content }}
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
