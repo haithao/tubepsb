@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: 'Trang web giới thiệu TỦ BẾP SB'
-description: giá chỉ từ 2,8tr/m ...
+description: giá chỉ từ 2,99tr/m ...
 image: null
 author: null
 show_tile: false
